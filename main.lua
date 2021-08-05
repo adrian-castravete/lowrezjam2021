@@ -24,6 +24,7 @@ input.setup {
 				anchor = "ld",
 				size = 40,
 				gap = 5,
+				deadZone = 0.2,
 			},
 			{
 				name = "jump",
@@ -43,7 +44,17 @@ input.setup {
 	},
 }
 
-clearColor = {0, 0.5, 1}
+math.randomseed(os.time())
+math.random()
+math.random()
+math.random()
+
+game = {
+	w = 8,
+	h = 8,
+}
+
+clearColor = {0.5, 0.5, 0.5}
 
 function love.update(dt)
 	lg.setCanvas(vp.canvas)
