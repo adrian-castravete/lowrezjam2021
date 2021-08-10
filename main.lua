@@ -11,7 +11,7 @@ vp.setup {
 local input = require("age.input")
 input.setup {
 	keyboard = {
-		jump = {"space"},
+		hold = {"space"},
 		left = {"left", "a"},
 		up = {"up", "w"},
 		right = {"right", "d"},
@@ -27,19 +27,11 @@ input.setup {
 				deadZone = 0.2,
 			},
 			{
-				name = "jump",
+				name = "hold",
 				anchor = "rd",
-				size = 20,
-				gapX = 30,
-				gapY = 5,
+				size = 30,
+				gap = 10,
 			},
-			{
-				name = "fire",
-				anchor = "rd",
-				size = 20,
-				gapX = 5,
-				gapY = 10,
-			}
 		}
 	},
 }

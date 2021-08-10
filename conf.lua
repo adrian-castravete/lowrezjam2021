@@ -8,10 +8,10 @@ function love.conf(t)
   local w = t.window
   w.title = "LowRezJam 2021 Entry"
   w.icon = nil
-  w.width = 960
-  w.height = 720
-  w.minwidth = 320
-  w.minheight = 240
+  w.width = 512
+  w.height = 512
+  w.minwidth = 64
+  w.minheight = 64
   w.resizable = true
   w.fullscreentype = 'desktop'
   w.fullscreen = false

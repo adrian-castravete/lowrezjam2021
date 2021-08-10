@@ -1,6 +1,7 @@
 require("things")
 
 local function start()
+	age.entity("game")
 	age.entity("player")
 	for j=1, game.h do
 		for i=1, game.w do
