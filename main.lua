@@ -41,11 +41,6 @@ math.random()
 math.random()
 math.random()
 
-game = {
-	w = 8,
-	h = 8,
-}
-
 clearColor = {0.5, 0.5, 0.5}
 
 function love.update(dt)

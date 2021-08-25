@@ -1,0 +1,71 @@
+Triple Line
+0
+r
++=+
+.
+
+Square
+1
+
+=+
+++
+.
+
+Square+
+2
+hvr
++=+
+.++
+.
+
+Quadruple Line
+3
+r
++=++
+.
+
+L Shapes
+5
+hv
+=++
++..
++..
+.
+
+T Shapes
+5
+hr
++..
+=++
++..
+.
+
+T Shapes+
+8
+hr
+.+..
++=++
+.+..
+.
+
+T Shapes*
+8
+hvr
++=++
+.+..
+.+..
+.
+
+Full Line
+13
+r
+++=++
+.
+
+Full T Shapes
+21
+vr
+++=++
+..+..
+..+..
+.
